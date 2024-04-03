@@ -1,0 +1,25 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.logo-mid {
+    width:70%;
+
+}
+
+.btn-save-the-date {
+    /*background-color: #c73a5d;*/
+    background-color: #c73a5d;
+}
+
+.btn-primary:hover {
+    background-color: #537090;
+}
+
+.btn-lg {
+    width: 15%;
+    height: 7%;
+}
