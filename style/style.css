@@ -19,6 +19,13 @@
     background-color: #537090;
 }
 
-.btn-lg {
+@media only screen and (max-width: 600px) {
+    .logo-mid {
+        margin-top: 20%;
+        width: 100%;
+    }
 
-}
+    .btn-lg {
+
+    }
+  }
