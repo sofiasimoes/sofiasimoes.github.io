@@ -21,11 +21,10 @@
 
 @media only screen and (max-width: 600px) {
     .logo-mid {
-        margin-top: 20%;
+        margin-top: 30%;
+        margin-bottom: 5%;
         width: 100%;
     }
 
-    .btn-lg {
 
-    }
   }
