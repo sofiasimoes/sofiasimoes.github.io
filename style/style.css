@@ -6,13 +6,38 @@
 
 
 .logo-mid {
-    width:90%;
+    width:20%;
 
 }
 
-.btn-save-the-date {
-    /*background-color: #c73a5d;*/
-    background-color: #c73a5d;
+a {
+    text-decoration: none;
+}
+
+a:hover h4{
+    color: #c73a5d;
+}
+
+h4 {
+    color: #537090;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h5 {
+    color: #537090;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.kikaluis {
+
+}
+
+.img-divisoes {
+    width: 50%;
+}
+
+.img-lua-de-mel {
+    width: 80%;
 }
 
 .btn-primary:hover {
@@ -26,5 +51,26 @@
         width: 100%;
     }
 
+}
 
-  }
+.nomes {
+    width: 42%;
+}
+
+.countdown {
+    color: #537090;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.time-labels {
+    color: #537090;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.img-onde-ficar {
+    width: 20%;
+}
