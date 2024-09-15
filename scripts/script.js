@@ -24,3 +24,21 @@ var x = setInterval(function() {
         document.getElementById("countdown").innerHTML = "EXPIRED";
     }
 }, 1000);
+
+
+function sendMessage() {
+    // Get the user input from the form field
+    var message = document.getElementById("userMessage").value;
+    
+    // Encode the message to be URL-safe
+    var encodedMessage = encodeURIComponent(message);
+
+    // Set the recipient phone number (in international format)
+    var phoneNumber = "351918782022"; // Replace with your phone number
+
+    // Construct the WhatsApp API URL
+    var whatsappUrl = "https://wa.me/" + phoneNumber + "?text=" + encodedMessage;
+
+    // Open WhatsApp with the custom message
+    window.open(whatsappUrl, '_blank');
+  }

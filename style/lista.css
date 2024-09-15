@@ -44,3 +44,7 @@ h5 {
   .back{
     width: 30%;
   }
+
+ .texto-presentes{
+    margin: 20px; /* Adds 20px margin on all sides */
+  }

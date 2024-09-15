@@ -18,9 +18,18 @@ a:hover h4{
     color: #c73a5d;
 }
 
+h2 {
+    color: #537090;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
 h4 {
     color: #537090;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.mensagem h5{
+    color: white !important;
 }
 
 h5 {
@@ -33,7 +42,9 @@ h5 {
 }
 
 .img-divisoes {
-    width: 50%;
+    width: 100%;
+    width: 300px;
+    height: 300px;
 }
 
 .img-lua-de-mel {
@@ -77,4 +88,10 @@ h5 {
 
 .back {
     width: 30%;
+}
+
+.h7{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size:800%;
 }
