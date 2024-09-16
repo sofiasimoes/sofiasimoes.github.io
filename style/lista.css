@@ -45,9 +45,6 @@ h5 {
     width: 30%;
   }
 
- .texto-presentes{
-    margin: 20px; /* Adds 20px margin on all sides */
-  }
 
   .btn-primary {
     background-color: #537090;
@@ -57,3 +54,19 @@ h5 {
 .btn-primary:hover {
     background-color: #c73a5d;
 }
+
+
+@media (max-width: 767px) {
+    .logo-wrap {
+    }
+}
+
+@media (max-width: 430px) {
+    .navigation {
+      font-size: 18px; /* Reduce font size for small screens */
+    }
+
+    .col-1 {
+      display: none; /* Hide extra columns on very small screens */
+    }
+  }

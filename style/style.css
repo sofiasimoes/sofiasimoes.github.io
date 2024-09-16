@@ -134,9 +134,25 @@ h1 {
     padding: 5%;
 }
 
+.imagens-l-m {
+    /* Define the fixed height for the images */
+    height: 500px; /* Adjust height as needed */
+    overflow: hidden; /* Hide any overflow */
+}
+
+.imagens-l-m img {
+    width: 100%; /* Make image fit container width */
+    height: 100%; /* Make image fit container height */
+    object-fit: scale-down; /* Cover the container while maintaining aspect ratio */
+}
+
 @media (max-width: 767px) {
     .logo-wrap {
         margin-top: -40%;
+    }
+
+    .img-onde-ficar{
+        width: 30%;
     }
 }
 
