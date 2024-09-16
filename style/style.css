@@ -7,7 +7,6 @@
 
 .logo-mid {
     width:20%;
-
 }
 
 a {
@@ -38,7 +37,7 @@ h5 {
 }
 
 .kikaluis {
-    width: 60%;
+    width: 50%;
 
 }
 
@@ -106,3 +105,47 @@ h5 {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.icons {
+    width: 64px;
+}
+
+.text-locations {
+    color: #537090;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-locations-static {
+    color: #537090;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-locations:hover {
+    color: #c73a5d;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: #537090;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.about-us {
+    padding: 5%;
+}
+
+@media (max-width: 767px) {
+    .logo-wrap {
+        margin-top: -40%;
+    }
+}
+
+@media (max-width: 430px) {
+    .navigation {
+      font-size: 18px; /* Reduce font size for small screens */
+    }
+
+    .col-1 {
+      display: none; /* Hide extra columns on very small screens */
+    }
+  }
