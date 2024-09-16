@@ -48,3 +48,12 @@ h5 {
  .texto-presentes{
     margin: 20px; /* Adds 20px margin on all sides */
   }
+
+  .btn-primary {
+    background-color: #537090;
+    border: 0ch;
+}
+
+.btn-primary:hover {
+    background-color: #c73a5d;
+}
