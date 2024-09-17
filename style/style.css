@@ -38,7 +38,6 @@ h5 {
 
 .kikaluis {
     width: 50%;
-
 }
 
 .img-divisoes {
@@ -62,7 +61,7 @@ h5 {
 
 @media only screen and (max-width: 600px) {
     .logo-mid {
-        margin-top: 50%;
+        /* margin-top: 50%; */
         margin-bottom: 5%;
         width: 100%;
     }
@@ -75,7 +74,7 @@ h5 {
 
 .countdown {
     color: #537090;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -148,7 +147,19 @@ h1 {
 
 @media (max-width: 767px) {
     .logo-wrap {
-        margin-top: -40%;
+        /* margin-top: -40%; */
+    }
+
+    .logo-mid {
+        width: 62%;
+    }
+
+    .kikaluis {
+        width: 70%;
+    }
+
+    .nomes {
+        width: 50%;
     }
 
     .img-onde-ficar{
