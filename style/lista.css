@@ -55,6 +55,12 @@ h5 {
     background-color: #c73a5d;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: #537090;
+  filter: invert(100%);
+}
+
 
 @media (max-width: 767px) {
 
