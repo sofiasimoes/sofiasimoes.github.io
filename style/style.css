@@ -172,6 +172,10 @@ h1 {
     .img-onde-ficar{
         width: 30%;
     }
+
+    .countdown {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 430px) {
